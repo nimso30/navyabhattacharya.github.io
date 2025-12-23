@@ -1,100 +1,20 @@
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Navya Bhattacharya | Portfolio</title>
-  <style>
-    body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f6f8;
-    color: #333;
-    line-height: 1.6;
-  }
-
-  header {
-    background-color: #1f2933;
-    color: white;
-    padding: 50px 20px;
-    text-align: center;
-  }
-
-  section {
-    max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
-  }
-
-  h1, h2 {
-    margin-bottom: 10px;
-  }
-
-  .project {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    margin-top: 20px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: 0.3s ease;
-  }
-
-  .project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  }
-
-  ul {
-    padding-left: 20px;
-  }
-
-  footer {
-    background: #1f2933;
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
-
-  a {
-    color: #2563eb;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-    @media (max-width: 600px) {
-  header h1 {
-    font-size: 28px;
-  }
-
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
-
-  section {
-    padding: 20px;
-  }
-}
-
-  </style>
-</head>
-
 <body>
+
+  <!-- Navigation -->
   <nav style="background:#111827; padding:15px; text-align:center;">
-  <a href="#about" style="color:white; margin:15px;">About</a>
-  <a href="#projects" style="color:white; margin:15px;">Projects</a>
-  <a href="#skills" style="color:white; margin:15px;">Skills</a>
-  <a href="#contact" style="color:white; margin:15px;">Contact</a>
-</nav>
+    <a href="#about" style="color:white; margin:15px;">About</a>
+    <a href="#projects" style="color:white; margin:15px;">Projects</a>
+    <a href="#skills" style="color:white; margin:15px;">Skills</a>
+    <a href="#contact" style="color:white; margin:15px;">Contact</a>
+  </nav>
 
+  <!-- Header -->
+  <header>
+    <h1>Navya Bhattacharya</h1>
+    <p>Master’s in Information Technology | SQL • Power BI • Cybersecurity</p>
+  </header>
 
- <header>
-  <h1>Navya Bhattacharya</h1>
-  <p>Master’s in Information Technology | SQL • Power BI • Cybersecurity</p>
-</header>
-
-
+  <!-- About -->
   <section id="about">
     <h2>About Me</h2>
     <p>
@@ -104,7 +24,8 @@
     </p>
   </section>
 
-  <div class="section">
+  <!-- Projects -->
+  <section id="projects">
     <h2>Projects</h2>
 
     <div class="project">
@@ -114,28 +35,30 @@
         product prices by type using aggregation logic and slicers.
       </p>
       <p><strong>Tools:</strong> SQL, Power BI</p>
-
       <p>
-        <a href="dashboard_overview.png" target="_blank">🔍 View Dashboard Screenshot</a>
+        <a href="dashboard_overview.png" target="_blank">
+          🔍 View Dashboard Screenshot
+        </a>
       </p>
     </div>
+
     <div class="project">
-  <h3>SQL Business Insights Project</h3>
-  <p>
-    Analysed product pricing data using SQL queries to identify top-performing
-    categories, average prices, and revenue distribution.
-  </p>
-  <p><strong>Tools:</strong> SQL (SQLite)</p>
+      <h3>SQL Business Insights Project</h3>
+      <p>
+        Analysed product pricing data using SQL queries to identify top-performing
+        categories, average prices, and revenue distribution.
+      </p>
+      <p><strong>Tools:</strong> SQL (SQLite)</p>
+      <p>
+        <a href="#" target="_blank">
+          📄 View SQL Queries (Coming Soon)
+        </a>
+      </p>
+    </div>
+  </section>
 
-  <p>
-    <a href="#" target="_blank">📄 View SQL Queries (Coming Soon)</a>
-  </p>
-</div>
-
-
-  </div>
-
-  <div class="section">
+  <!-- Skills -->
+  <section id="skills">
     <h2>Skills</h2>
     <ul>
       <li>SQL (SELECT, WHERE, GROUP BY, HAVING)</li>
@@ -143,31 +66,34 @@
       <li>Python (Basics)</li>
       <li>Cybersecurity Fundamentals</li>
     </ul>
-  </div>
+  </section>
 
+  <!-- Contact -->
   <section id="contact">
-    <section id="contact">
-  <h2>Contact</h2>
+    <h2>Contact</h2>
 
-  <p>Email: <strong>navyashankar3014@gmail.com</strong></p>
+    <p>Email: <strong>navyashankar3014@gmail.com</strong></p>
 
-  <p>
-    LinkedIn:
-    <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
-      linkedin.com/in/YOUR-LINKEDIN
-    </a>
-  </p>
+    <p>
+      LinkedIn:
+      <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+        linkedin.com/in/YOUR-LINKEDIN
+      </a>
+    </p>
 
-  <p>
-    Download CV:
-    <a href="Navya_Bhattacharya_CV.pdf" target="_blank">
-      PDF
-    </a>
-  </p>
-</section>
-<footer>
-  © 2025 Navya Bhattacharya
-</footer>
+    <p>
+      Download CV:
+      <a href="Navya_Bhattacharya_CV.pdf" target="_blank">
+        PDF
+      </a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Navya Bhattacharya
+  </footer>
 
 </body>
-</html>
+
+ 
