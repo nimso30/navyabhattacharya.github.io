@@ -1,5 +1,7 @@
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Navya Bhattacharya | Portfolio</title>
   <style>
     body {
@@ -60,10 +62,32 @@
   a:hover {
     text-decoration: underline;
   }
+    @media (max-width: 600px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
+
   </style>
 </head>
 
 <body>
+  <nav style="background:#111827; padding:15px; text-align:center;">
+  <a href="#about" style="color:white; margin:15px;">About</a>
+  <a href="#projects" style="color:white; margin:15px;">Projects</a>
+  <a href="#skills" style="color:white; margin:15px;">Skills</a>
+  <a href="#contact" style="color:white; margin:15px;">Contact</a>
+</nav>
+
 
  <header>
   <h1>Navya Bhattacharya</h1>
@@ -71,7 +95,7 @@
 </header>
 
 
-  <section>
+  <section id="about">
     <h2>About Me</h2>
     <p>
       I am a recent Master’s in IT graduate with an interest in data analysis,
@@ -95,6 +119,19 @@
         <a href="dashboard_overview.png" target="_blank">🔍 View Dashboard Screenshot</a>
       </p>
     </div>
+    <div class="project">
+  <h3>SQL Business Insights Project</h3>
+  <p>
+    Analysed product pricing data using SQL queries to identify top-performing
+    categories, average prices, and revenue distribution.
+  </p>
+  <p><strong>Tools:</strong> SQL (SQLite)</p>
+
+  <p>
+    <a href="#" target="_blank">📄 View SQL Queries (Coming Soon)</a>
+  </p>
+</div>
+
 
   </div>
 
@@ -108,13 +145,23 @@
     </ul>
   </div>
 
-  <section>
+  <section id="contact">
+    <section id="contact">
   <h2>Contact</h2>
+
   <p>Email: <strong>navyashankar3014@gmail.com</strong></p>
+
   <p>
     LinkedIn:
-    <a href="https://linkedin.com/in/yourprofile" target="_blank">
-      linkedin.com/in/yourprofile
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+      linkedin.com/in/YOUR-LINKEDIN
+    </a>
+  </p>
+
+  <p>
+    Download CV:
+    <a href="Navya_Bhattacharya_CV.pdf" target="_blank">
+      PDF
     </a>
   </p>
 </section>
